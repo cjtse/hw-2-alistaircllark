@@ -1,0 +1,14 @@
+name: ligo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Using Python 3.8 for compatibility with older scientific libraries
+  - python=3.8
+  - ipykernel
+  - matplotlib=3.7
+  - numpy=1.24
+  - scipy=1.10
+  - h5py=3.8
+  - ligo-gracedb=2.0
+  - decorator=4.4     # Explicitly requesting version 4.4, as recommended by the homework
